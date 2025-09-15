@@ -1,0 +1,23 @@
+*{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+.box {
+    border: 1px solid black;
+    background-color: lightgray;
+}
+
+.box.hovered {
+  background-color: black;
+}
